@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    border: 0;
+    background-color: #A94438;
+}
+.welcome{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #A94438;
+}
+.container{
+    /* padding: 20px; */
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #A94438;
+
+}
+.welcomeText{
+    transition: all ease-in-out .5s;
+}
+.text001{
+    color: aliceblue;
+    font-size: 50px;
+}
+.text002{
+    opacity: 0;
+}
+.text003{
+    display: block;
+}
+
+.showFeed{
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.showFood{
+    width: 400px;
+    height: 400px;
+    top: 10px;
+    display: inline-block;
+    border: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: darkgrey;
+    overflow: hidden;
+}
+.showSelect{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    border: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #242329;
+    scrollbar-width: 1px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.showSelectItem{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.showSelectItemImage{
+    width: 100%;
+    height: 100%;
+}
+.showItemImage{
+    width: 130%;
+    height: 100%;
+}
+.showSelectItemDiv{
+    width: 70%;
+    height: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: bisque;
+}
+
+.showSelectItemImageDiv{
+    height: 200px;
+}
+.showSelectItemTitle{
+    font-size: 30px;
+    color: rgb(21, 21, 21);
+    text-align: center;
+    ;
+}
+.shopName{
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    width: 97%;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home{
+    display: flex;
+    border-bottom: solid #E6BAA3 3px;
+    align-items: center;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 25px;
+}
+.food{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.drink{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 25px;
+}
+.toast{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.menu{
+    width: 95%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #D24545;
+    border-radius: 10px;
+}
+.homeFeed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.hftContainer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.hft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.hi{
+    width: 90%;
+}
+
+@media screen and (min-width: 600px){
+    .showSelectItemImageDiv{
+        height: 300px;
+    }
+}
